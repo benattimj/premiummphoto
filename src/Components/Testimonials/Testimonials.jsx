@@ -36,11 +36,11 @@ const slideBackward = ()=>{
                     <div className="user-info">
                         <img src={user_1} alt="" />
                         <div>
-                            <h3>Emily Williams</h3>
-                            <span>Edusity, USA</span>
+                            <h3>Murilo Benatti</h3>
+                            <span>London, UK</span>
                         </div>
                     </div>
-                    <p>Choosing to pursue my degree at Edusity was one of the best decisions I've ever made. The supportive community, state-of-the-art facilities, and commitment to academic excellence have truly exceeded my expectations.</p>
+                    <p>Alex has an incredible eye for detail—every photo felt like a piece of art. He captured moments we didn’t even know we’d want to remember!</p>
                 </div>
             </li>
             <li>
@@ -48,11 +48,11 @@ const slideBackward = ()=>{
                     <div className="user-info">
                         <img src={user_2} alt="" />
                         <div>
-                            <h3>William Jackson</h3>
-                            <span>Edusity, USA</span>
+                            <h3>Maria Alicy</h3>
+                            <span>Craoatia</span>
                         </div>
                     </div>
-                    <p>Choosing to pursue my degree at Edusity was one of the best decisions I've ever made. The supportive community, state-of-the-art facilities, and commitment to academic excellence have truly exceeded my expectations.</p>
+                    <p>The photos Alex delivered were beyond our expectations. Natural, emotional, and beautifully composed—we were blown away.</p>
                 </div>
             </li>
             <li>
@@ -60,11 +60,11 @@ const slideBackward = ()=>{
                     <div className="user-info">
                         <img src={user_3} alt="" />
                         <div>
-                            <h3>Emily Williams</h3>
-                            <span>Edusity, USA</span>
+                            <h3>Shakira Boaventura</h3>
+                            <span>Bristol, UK</span>
                         </div>
                     </div>
-                    <p>Choosing to pursue my degree at Edusity was one of the best decisions I've ever made. The supportive community, state-of-the-art facilities, and commitment to academic excellence have truly exceeded my expectations.</p>
+                    <p>Working with Alex was effortless, and the results were stunning. He doesn’t just take photos—he tells stories through his lens.</p>
                 </div>
             </li>
             <li>
@@ -72,11 +72,11 @@ const slideBackward = ()=>{
                     <div className="user-info">
                         <img src={user_4} alt="" />
                         <div>
-                            <h3>William Jackson</h3>
-                            <span>Edusity, USA</span>
+                            <h3>Gessy Hylls</h3>
+                            <span>Liverpool, UK</span>
                         </div>
                     </div>
-                    <p>Choosing to pursue my degree at Edusity was one of the best decisions I've ever made. The supportive community, state-of-the-art facilities, and commitment to academic excellence have truly exceeded my expectations.</p>
+                    <p>Alex’s photos truly speak for themselves—every shot was vibrant, authentic, and full of life. He captured the essence of the day perfectly.</p>
                 </div>
             </li>
         </ul>
