@@ -11,6 +11,11 @@
     display: inline-block;
     margin-left: 20px;
 }
+
+.footer p{
+   display: flex;
+   margin: center;
+}
 /* ------ media query ---------- */
 @media (max-width: 600px){
     .footer{

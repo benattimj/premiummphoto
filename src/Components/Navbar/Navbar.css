@@ -12,7 +12,7 @@ nav{
     z-index: 10;
 }
 .logo{
-    width: 180px;
+    width: 85px;
 }
 nav ul li{
     display: inline-block;
@@ -21,7 +21,7 @@ nav ul li{
     font-size: 16px;
 }
 .dark-nav{
-    background: #212EA0;
+    background: #510303;
     transition: 0.5s;
 }
 .menu-icon{
@@ -31,7 +31,7 @@ nav ul li{
 
 @media (max-width: 1000px){
     .logo{
-        width: 140px;
+        width: 70px;
     }
     nav ul li{
         margin: 10px 15px;
