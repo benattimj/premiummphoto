@@ -12,10 +12,7 @@ const About = ({setPlayState}) => {
       </div>
       <div className="about-right">
         <h3>About Alex</h3>
-        <h2>With an eye for detail and emotion, I create visual stories that are both meaningful and artistically refined.
-
-</h2>
-        <p>My name is Alex  and I'm a freelance photographer specialising in portraits, weddings and lifestyle photography. 
+          <p>My name is Alex  and I'm a freelance photographer specialising in portraits, weddings and lifestyle photography. 
 I was interested in photography from a young age and I have been involved in photography for several years where I worked on different events during those years. 
 I was born in Dubrovnik and I am now based in London and I'm available to hire for commercial projects worldwide.</p>
         <p>My approach is centered around creating a deeply personalized experience so that you can fully immerse yourself in your wedding without ever worrying about the photography..</p>

@@ -34,9 +34,8 @@ const slideBackward = ()=>{
             <li>
                 <div className="slide">
                     <div className="user-info">
-                        <img src={user_1} alt="" />
                         <div>
-                            <h3>Murilo Benatti</h3>
+                            <h3>Murilo </h3>
                             <span>London, UK</span>
                         </div>
                     </div>
@@ -46,9 +45,8 @@ const slideBackward = ()=>{
             <li>
                 <div className="slide">
                     <div className="user-info">
-                        <img src={user_2} alt="" />
                         <div>
-                            <h3>Maria Alicy</h3>
+                            <h3>Maria </h3>
                             <span>Craoatia</span>
                         </div>
                     </div>
@@ -58,9 +56,8 @@ const slideBackward = ()=>{
             <li>
                 <div className="slide">
                     <div className="user-info">
-                        <img src={user_3} alt="" />
                         <div>
-                            <h3>Shakira Boaventura</h3>
+                            <h3>Shakira</h3>
                             <span>Bristol, UK</span>
                         </div>
                     </div>
@@ -70,9 +67,8 @@ const slideBackward = ()=>{
             <li>
                 <div className="slide">
                     <div className="user-info">
-                        <img src={user_4} alt="" />
                         <div>
-                            <h3>Gessy Hylls</h3>
+                            <h3>Gessy </h3>
                             <span>Liverpool, UK</span>
                         </div>
                     </div>
