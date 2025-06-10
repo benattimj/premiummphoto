@@ -38,12 +38,17 @@ const Contact = () => {
   return (
     <div className='contact'>
       <div className="contact-col">
-        <h3>Send me a message <img src={msg_icon} alt="" /></h3>
-        <p>Feel free to reach out through our contact form or find our contact information below. Whether you have questions, need a custom quote, or want to book a session, we're here to help. Your ideas, feedback, and inquiries are always welcome as we aim to capture your moments with care and creativity.</p>
-        <ul>
+        <h3>Find me on<img src={msg_icon} alt="" /></h3>
+           <ul>
             <li><img src={mail_icon} alt="" /> premiummphotography@gmail.com</li>
-            <li><img src={phone_icon} alt="" />+ 44-07931-588770</li>
-            <li><img src={location_icon} alt="" /> London<br/> United Kingdon</li>
+             <img src={phone_icon} alt="WhatsApp" />
+            <a
+              href="https://wa.me/447931588770"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              +44 7931 588770 ( WhatsApp )
+            </a><li><img src={location_icon} alt="" /> London<br/> United Kingdon</li>
         </ul>
       </div>
       <div className="contact-col">

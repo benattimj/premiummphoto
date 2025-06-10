@@ -10,7 +10,7 @@
     color: #000000;
 }
 .contact-col h3{
-    color: #b91ed5;
+    color: #000000;
     font-weight: 500;
     font-size: 25px;
     display: flex;
@@ -57,4 +57,10 @@
     .contact-col{
         padding: 20px;
     }
+
+    .contact-col ul li img {
+  width: 2px;   /* 👈 reduce from 25px */
+  height: 20px;  /* optional, to force consistent height */
+  margin-right: 10px;
+}
 }
