@@ -9,6 +9,7 @@ import Testimonials from './Components/Testimonials/Testimonials'
 import Contact from './Components/Contact/Contact'
 import Footer from './Components/Footer/Footer'
 import VideoPlayer from './Components/VideoPlayer/VideoPlayer'
+import WhatsAppButton from './Components/WhatsAppButton/WhatsAppButon'
 
 const App = () => {
 
@@ -33,6 +34,7 @@ const App = () => {
         <Footer/>
      </div>
      <VideoPlayer playState={playState} setPlayState={setPlayState} />
+      <WhatsAppButton /> {/* Aqui está o botão */}
     </div>
   )
 }
