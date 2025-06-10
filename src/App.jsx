@@ -22,11 +22,11 @@ const App = () => {
         <Title subTitle='My Services' title='What I Offer'/>
         <Programs/>
       
-        <Title subTitle='Gallery' title='Photos'/>
+        <Title title='Photos'/>
         <Campus/>
           <About setPlayState={setPlayState}/>
           
-        <Title subTitle='Experience' title=' Reviews'/>
+        <Title title=' Reviews'/>
         <Testimonials/>
         <Title subTitle='Contact Us' title='Get in Touch'/>
         <Contact/>

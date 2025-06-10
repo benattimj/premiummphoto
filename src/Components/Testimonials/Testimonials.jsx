@@ -35,17 +35,17 @@ const slideBackward = ()=>{
                 <div className="slide">
                     <div className="user-info">
                         <div>
-                            <h3>Clara </h3>
+                            <h3>Murilo </h3>
                         </div>
                     </div>
-                    <p>We had a family photo shoot and we are very satisfied, my wife is impressed. The pictures were ready after 2 days, appreciate!</p>
+                    <p>Alex has an incredible eye for detail—every photo felt like a piece of art. He captured moments we didn’t even know we’d want to remember!</p>
                 </div>
             </li>
             <li>
                 <div className="slide">
                     <div className="user-info">
                         <div>
-                            <h3>Patrick </h3>
+                            <h3>Maria </h3>
                         </div>
                     </div>
                     <p>The photos Alex delivered were beyond our expectations. Natural, emotional, and beautifully composed—we were blown away.</p>
@@ -55,21 +55,60 @@ const slideBackward = ()=>{
                 <div className="slide">
                     <div className="user-info">
                         <div>
-                            <h3>Ivan </h3>
+                            <h3>Ana</h3>
                         </div>
                     </div>
-                    <p>Thank you for creating our wedding memories - We are delighted!</p>
+                    <p>Working with Alex was effortless, and the results were stunning. He doesn’t just take photos—he tells stories through his lens.</p>
                 </div>
             </li>
             <li>
                 <div className="slide">
                     <div className="user-info">
                         <div>
-                            <h3>Lewy </h3>
+                            <h3>Gessy </h3>
                         </div>
                     </div>
-                    <p>I absolutely love them bro!! I can't put into words how happy I am with all of them. You are an outstanding man Alex!! Thank you so much 
-Again thanks for making such a special moment an amazing memory for us.</p>
+                    <p>Alex’s photos truly speak for themselves—every shot was vibrant, authentic, and full of life. He captured the essence of the day perfectly.</p>
+                </div>
+            </li>
+            <li>
+                <div className="slide">
+                    <div className="user-info">
+                        <div>
+                            <h3>Ana</h3>
+                        </div>
+                    </div>
+                    <p>Working with Alex was effortless, and the results were stunning. He doesn’t just take photos—he tells stories through his lens.</p>
+                </div>
+            </li>
+            <li>
+                <div className="slide">
+                    <div className="user-info">
+                        <div>
+                            <h3>Ana</h3>
+                        </div>
+                    </div>
+                    <p>Working with Alex was effortless, and the results were stunning. He doesn’t just take photos—he tells stories through his lens.</p>
+                </div>
+            </li>
+            <li>
+                <div className="slide">
+                    <div className="user-info">
+                        <div>
+                            <h3>Ana</h3>
+                        </div>
+                    </div>
+                    <p>Working with Alex was effortless, and the results were stunning. He doesn’t just take photos—he tells stories through his lens.</p>
+                </div>
+            </li>
+            <li>
+                <div className="slide">
+                    <div className="user-info">
+                        <div>
+                            <h3>Ana</h3>
+                        </div>
+                    </div>
+                    <p>Working with Alex was effortless, and the results were stunning. He doesn’t just take photos—he tells stories through his lens.</p>
                 </div>
             </li>
         </ul>
