@@ -39,17 +39,29 @@ const Contact = () => {
     <div className='contact'>
       <div className="contact-col">
         <h3>Find me on<img src={msg_icon} alt="" /></h3>
-           <ul>
-            <li><img src={mail_icon} alt="" /> premiummphotography@gmail.com</li>
-             <img src={phone_icon} alt="WhatsApp" />
-            <a
-              href="https://wa.me/447931588770"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              +44 7931 588770 ( WhatsApp )
-            </a><li><img src={location_icon} alt="" /> London<br/> United Kingdon</li>
-        </ul>
+          <ul>
+  <li>
+    <img src={mail_icon} alt="" />
+    premiummphotography@gmail.com
+  </li>
+
+  {/* 👇 Envolver corretamente dentro do <li> */}
+  <li>
+    <img src={phone_icon} alt="WhatsApp" />
+    <a
+      href="https://wa.me/447931588770"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      +44 7931 588770 ( WhatsApp )
+    </a>
+  </li>
+
+  <li>
+    <img src={location_icon} alt="" />
+    London<br /> United Kingdom
+  </li>
+</ul>
       </div>
       <div className="contact-col">
         <form onSubmit={onSubmit}>

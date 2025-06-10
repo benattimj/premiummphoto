@@ -29,10 +29,12 @@
     display: flex;
     align-items: center;
     margin: 20px 0;
-}
-.contact-col ul li img{
-    width: 25px;
-    margin-right: 10px;
+}.contact-col ul li img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  color: greenyellow;
+  object-fit: contain; /* garante que a imagem não distorça */
 }
 .contact form input, .contact form textarea{
     display: block;
@@ -58,9 +60,10 @@
         padding: 20px;
     }
 
-    .contact-col ul li img {
-  width: 2px;   /* 👈 reduce from 25px */
-  height: 20px;  /* optional, to force consistent height */
+ .contact-col ul li img {
+  width: 24px;
+  height: 24px;
   margin-right: 10px;
+  object-fit: contain; /* garante que a imagem não distorça */
 }
 }
