@@ -46,20 +46,15 @@ const Contact = () => {
   </li>
 
   {/* 👇 Envolver corretamente dentro do <li> */}
-  <li>
-    <img src={phone_icon} alt="WhatsApp" />
-    <a
-      href="https://wa.me/447931588770"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      +44 7931 588770 ( WhatsApp )
-    </a>
-  </li>
-
+  
   <li>
     <img src={location_icon} alt="" />
     London<br /> United Kingdom
+  </li>
+
+   <li>
+    <img src={location_icon} alt="" />
+    Dubrovnik<br /> Croatia
   </li>
 </ul>
       </div>
