@@ -52,6 +52,23 @@
     display: block;
     margin: 20px 0;
 }
+.social-icons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-icons a {
+  font-size: 24px;
+  color: #212EA0;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #000;
+  transform: scale(1.1);
+}
 /* ----------- media query -------- */
 @media (max-width: 700px){
     .contact{

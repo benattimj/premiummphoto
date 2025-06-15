@@ -2,9 +2,11 @@ import React from 'react'
 import './Contact.css'
 import msg_icon from '../../assets/msg-icon.png'
 import mail_icon from '../../assets/mail-icon.png'
-import phone_icon from '../../assets/phone-icon.png'
 import location_icon from '../../assets/location-icon.png'
 import white_arrow from '../../assets/white-arrow.png'
+
+import { FaInstagram, FaFacebookF, FaWhatsapp } from 'react-icons/fa';
+
 
 const Contact = () => {
 
@@ -56,7 +58,24 @@ const Contact = () => {
     <img src={location_icon} alt="" />
     Dubrovnik<br /> Croatia
   </li>
+
 </ul>
+
+        <div className="social-icons">
+          <a href="https://www.instagram.com/premiummphotography?igsh=MXIxdGR4Yzl3MDdlYw%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer">
+            <FaInstagram />
+          </a>
+          <a href="https://www.facebook.com/people/Premiummphotography/61563590695825/" target="_blank" rel="noopener noreferrer">
+            <FaFacebookF />
+          </a>  <a
+      href="https://api.whatsapp.com/send?phone=447931588770&text=Hel%C3%A1%21"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="WhatsApp"
+    >
+            <FaWhatsapp />
+          </a>
+        </div>
       </div>
   
     </div>
