@@ -7,12 +7,11 @@ const Testimonials = () => {
   const [slideIndex, setSlideIndex] = useState(0);
 
   const reviews = [
-    { name: 'Murilo', text: 'Alex has an incredible eye for detail—every photo felt like a piece of art.' },
-    { name: 'Maria', text: 'The photos Alex delivered were beyond our expectations.' },
-    { name: 'Ana', text: 'Working with Alex was effortless, and the results were stunning.' },
-    { name: 'Gessy', text: 'Every shot was vibrant, authentic, and full of life.' },
-    { name: 'Ana', text: 'He tells stories through his lens.' },
-  ];
+    { name: 'Clara', text: 'WooooW, thats all I can say the pictures are perfect and more than expected I recommend to everyone.' },
+    { name: 'Patrick ', text: 'We had a family photo shoot and we are very satisfied, my wife is impressed. The pictures were ready after 2 days. Thank you.' },
+    { name: 'Ivan ', text: 'Thank you for creating our wedding memories - We are delighted!' },
+    { name: 'Lewy', text: 'I absolutely love them bro!! I cant put into words how happy I am with all of them. You are an outstanding man Alex!! Thank you so much Again thanks for making such a special moment an amazing memory for us.' },
+     ];
 
   const slideForward = () => {
     if (slideIndex < reviews.length - 1) setSlideIndex(prev => prev + 1);
